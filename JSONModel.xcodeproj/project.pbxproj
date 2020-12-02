@@ -166,7 +166,7 @@
 		1A5B9D3F1D1C8D72006FE4B1 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
-				EDE62A7E2576B76000F24F44 /* include */,
+				EDE62A7C2576A23100F24F44 /* JSONModel.modulemap */,
 				92C9BC411B19A51100D79B06 /* Info.plist */,
 				92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */,
 				92C9BC641B19A5B600D79B06 /* JSONModel.h */,
@@ -213,14 +213,6 @@
 				01D68A271E421AC100CFE82F /* JSONModel.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EDE62A7E2576B76000F24F44 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				EDE62A7C2576A23100F24F44 /* JSONModel.modulemap */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
