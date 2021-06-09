@@ -166,9 +166,9 @@
 		1A5B9D3F1D1C8D72006FE4B1 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
+				ED6EC54A26711D4D00F85E17 /* Public */,
 				EDE62A7C2576A23100F24F44 /* JSONModel.modulemap */,
 				92C9BC411B19A51100D79B06 /* Info.plist */,
-				92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */,
 				92C9BC641B19A5B600D79B06 /* JSONModel.h */,
 				92C9BC651B19A5B600D79B06 /* JSONModel.m */,
 				92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */,
@@ -213,6 +213,14 @@
 				01D68A271E421AC100CFE82F /* JSONModel.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6EC54A26711D4D00F85E17 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
