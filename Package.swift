@@ -22,7 +22,7 @@ let package = Package(
             name: "JSONModel",
             dependencies: [],
             path: "JSONModel",
-            exclude: ["Info.plist"],
+            exclude: ["Info.plist", "JSONModel+networking.h", "JSONHTTPClient.h", "JSONAPI.h", "JSONModelLib.h", ],
             publicHeadersPath: "Public"
             ),
     ]
